@@ -1,6 +1,8 @@
+import { Title } from './styles';
+
 function Home() {
   return (
-    <h1>Home</h1>
+    <Title>Home</Title>
   );
 }
 
