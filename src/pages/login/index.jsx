@@ -1,7 +1,11 @@
-import { Title } from './styles';
+import { Title, Box } from './styles';
 
 function Login() {
-  return <Title>Login</Title>;
+  return (
+    <Box>
+      <Title>Login</Title>
+    </Box>
+  );
 }
 
 export { Login };
