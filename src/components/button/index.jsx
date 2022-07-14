@@ -1,7 +1,11 @@
-import * as C from './styles';
+import PropTypes from 'prop-types';
+import { ButtonStyle } from './styles';
 
-// eslint-disable-next-line react/prop-types
-const Button = ({ Text, onClick }) => {
-  return <C.Button onClick={onClick}>{Text}</C.Button>;
+export const Button = ({ text, onClick }) => {
+  return <ButtonStyle onClick={onClick}>{text}</ButtonStyle>;
 };
-export default Button;
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+  onClick: PropTypes.object,
+};

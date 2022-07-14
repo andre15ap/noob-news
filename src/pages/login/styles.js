@@ -5,21 +5,27 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
-export const Content = styled.form`
-  width: 450px;
+export const ContentForm = styled.form`
+  width: 100%;
+  max-width: 450px;
   height: 400px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
+  transition: ease-in-out 1s;
+
+  @media (max-width: 500px) {
+    padding: 20px;
+  }
 `;
-export const InputFildUser = styled.div`
+export const ContentInput = styled.div`
   display: flex;
   align-items: center;
-  width: 450px;
+  width: 100%;
   height: 50px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 10px;
 `;
 export const InputIcon = styled.div`

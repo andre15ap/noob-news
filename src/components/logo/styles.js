@@ -1,5 +1,3 @@
 import styled from 'styled-components';
 
-export const Img = styled.img`
-    width: 130px;
-`;
+export const Image = styled.img``;

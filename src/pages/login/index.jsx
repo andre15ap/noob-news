@@ -1,31 +1,30 @@
-import * as C from './styles';
-import Button from '../../components/button';
-import Input from '../../components/input';
-import Logo from '../../components/logo';
-import logoImg from '../../img/logo.png';
+import { Button } from '../../components/button';
+import { Input } from '../../components/input';
+import { Logo } from '../../components/logo';
 import { BiUserCircle } from 'react-icons/bi';
 import { RiLockPasswordLine } from 'react-icons/ri';
+import { Container, ContentForm, ContentInput, InputIcon } from './styles';
 
 function Login() {
   return (
-    <C.Container>
-      <C.Content>
-        <Logo src={logoImg} />
-        <C.InputFildUser>
-          <C.InputIcon>
+    <Container>
+      <ContentForm>
+        <Logo width={'150px'} />
+        <ContentInput>
+          <InputIcon>
             <BiUserCircle size={'2em'} />
-          </C.InputIcon>
+          </InputIcon>
           <Input placeholder={'Digite seu login'} />
-        </C.InputFildUser>
-        <C.InputFildUser>
-          <C.InputIcon>
+        </ContentInput>
+        <ContentInput>
+          <InputIcon>
             <RiLockPasswordLine size={'2em'} />
-          </C.InputIcon>
+          </InputIcon>
           <Input placeholder={'Digite sua senha'} type='password' />
-        </C.InputFildUser>
-        <Button Text={'Login'} />
-      </C.Content>
-    </C.Container>
+        </ContentInput>
+        <Button text={'Login'} />
+      </ContentForm>
+    </Container>
   );
 }
 

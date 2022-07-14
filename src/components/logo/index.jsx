@@ -1,8 +1,11 @@
-import * as C from './styles';
+import PropTypes from 'prop-types';
+import logoImg from '../../img/logo.svg';
+import { Image } from './styles';
 
-// eslint-disable-next-line react/prop-types
-const Img = ({ src }) => {
-  return <C.Img src={src} />;
+export const Logo = ({ width }) => {
+  return <Image src={logoImg} width={width} />;
 };
 
-export default Img;
+Logo.propTypes = {
+  width: PropTypes.string,
+};

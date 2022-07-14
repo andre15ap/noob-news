@@ -1,7 +1,11 @@
-import * as C from './styles';
-// eslint-disable-next-line react/prop-types
-const Input = ({ type, placeholder }) => {
-  return <C.Input type={type} placeholder={placeholder}></C.Input>;
+import PropTypes from 'prop-types';
+import { InputStyle } from './styles';
+
+export const Input = ({ type, placeholder }) => {
+  return <InputStyle type={type} placeholder={placeholder}></InputStyle>;
 };
 
-export default Input;
+Input.propTypes = {
+  type: PropTypes.string,
+  placeholder: PropTypes.string,
+};
