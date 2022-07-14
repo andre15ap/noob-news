@@ -1,7 +1,13 @@
+import { NavBar } from '../../components/nav/styles';
 import { Title } from './styles';
 
 function Home() {
-  return <Title>Home</Title>;
+  return (
+    <>
+      <NavBar />
+      <Title>Home</Title>
+    </>
+  );
 }
 
 export { Home };
