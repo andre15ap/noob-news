@@ -1,4 +1,5 @@
 import { NavBar } from '../../components/navBar';
+import { Box } from '../../components/box';
 import { Title, Container, Content } from './styles';
 
 function Home() {
@@ -7,7 +8,9 @@ function Home() {
       <NavBar />
       <Container>
         <Content>
-          <Title>Home</Title>
+          <Box height={'200px'}>
+            <Title>Home</Title>
+          </Box>
         </Content>
       </Container>
     </>
