@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  height: 100vh;
   display: flex;
   justify-content: center;
 `;
@@ -9,6 +10,7 @@ export const ContentForm = styled.form`
   width: 100%;
   max-width: 450px;
   height: 400px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   gap: 20px;
