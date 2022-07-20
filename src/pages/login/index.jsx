@@ -1,5 +1,5 @@
 import { CustomButton as Button } from '../../components/button';
-import { Input } from '../../components/input';
+import { CustomInput as Input } from '../../components/input';
 import { Logo } from '../../components/logo';
 import { BiUserCircle } from 'react-icons/bi';
 import { RiLockPasswordLine } from 'react-icons/ri';

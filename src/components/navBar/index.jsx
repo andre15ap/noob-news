@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <Nav>
       <div>
-        <Logo width={'55px'} typeLogo={'dark'} />
+        <Logo width={'60px'} typeLogo={'dark'} />
       </div>
     </Nav>
   );
