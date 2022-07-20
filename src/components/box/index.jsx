@@ -1,15 +1,14 @@
 import Proptypes from 'prop-types';
-import { BoxStyle } from './styles';
 
-export const Box = ({ children, height, width }) => {
+import { Box } from './styles';
+
+export const CustomBox = ({ children, height, width }) => {
   return (
-    <BoxStyle style={{ height: `${height}`, width: `${width}` }}>
-      {children}
-    </BoxStyle>
+    <Box style={{ height: `${height}`, width: `${width}` }}>{children}</Box>
   );
 };
 
-Box.propTypes = {
+CustomBox.propTypes = {
   children: Proptypes.string,
   height: Proptypes.string,
   width: Proptypes.string,

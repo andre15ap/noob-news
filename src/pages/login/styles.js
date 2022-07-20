@@ -22,6 +22,7 @@ export const ContentForm = styled.form`
     padding: 20px;
   }
 `;
+
 export const ContentInput = styled.div`
   display: flex;
   align-items: center;
@@ -30,6 +31,7 @@ export const ContentInput = styled.div`
   background: #d9d9d9;
   border-radius: 10px;
 `;
+
 export const InputIcon = styled.div`
   width: 50px;
   height: 50px;

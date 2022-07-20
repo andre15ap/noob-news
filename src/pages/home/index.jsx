@@ -1,5 +1,5 @@
 import { NavBar } from '../../components/navBar';
-import { Box } from '../../components/box';
+import { CustomBox as Box } from '../../components/box';
 import { Title, Container, Main, Aside } from './styles';
 
 function Home() {
