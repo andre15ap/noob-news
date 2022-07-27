@@ -7,7 +7,7 @@ export const Title = styled.h1`
 
 export const Main = styled.div`
   margin: 0 auto;
-  max-width: 1100px;
+  max-width: 940px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
