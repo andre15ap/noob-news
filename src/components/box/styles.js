@@ -6,4 +6,6 @@ export const Box = styled.div`
   border-bottom: 2px solid #f26c0b;
   padding: 10px;
   margin-top: 10px;
+  width: ${props => props.width};
+  height: ${props => props.height};
 `;

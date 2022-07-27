@@ -4,7 +4,9 @@ import { Box } from './styles';
 
 export const CustomBox = ({ children, height, width }) => {
   return (
-    <Box style={{ height: `${height}`, width: `${width}` }}>{children}</Box>
+    <Box width={width + 'px'} height={height + 'px'}>
+      {children}
+    </Box>
   );
 };
 
