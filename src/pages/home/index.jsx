@@ -1,7 +1,7 @@
-import { Title } from './styles';
+import { NavBar } from '../../components/navBar';
 
 function Home() {
-  return <Title>Home</Title>;
+  return <NavBar />;
 }
 
 export { Home };
