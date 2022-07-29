@@ -6,9 +6,6 @@ export const Button = styled.button`
   background: #f0cf1f;
   border-radius: 10px;
   height: 50px;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Jockey One', sans-serif;
   cursor: pointer;
   transition: ease-in-out 0.5s;
 

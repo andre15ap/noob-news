@@ -5,10 +5,10 @@ import { Main } from './styles';
 
 function Home() {
   return (
-    <>
+    <div>
       <NavBar />
       <Main>
-        <Box width={'300px'}>
+        <Box width={300}>
           <Post
             img={
               'https://lumiere-a.akamaihd.net/v1/images/au_marvel_theavengers_ageofultron_movie_poster_5705ee77.jpeg?region=2,104,538,458'
@@ -21,7 +21,7 @@ function Home() {
             }
           />
         </Box>
-        <Box width={'300px'}>
+        <Box width={300}>
           <Post
             img={
               'https://lumiere-a.akamaihd.net/v1/images/au_marvel_theavengers_ageofultron_movie_poster_5705ee77.jpeg?region=2,104,538,458'
@@ -33,7 +33,7 @@ function Home() {
             }
           />
         </Box>
-        <Box width={'300px'}>
+        <Box width={300}>
           <Post
             img={
               'https://lumiere-a.akamaihd.net/v1/images/au_marvel_theavengers_ageofultron_movie_poster_5705ee77.jpeg?region=2,104,538,458'
@@ -83,7 +83,7 @@ function Home() {
           />
         </Box>
       </Main>
-    </>
+    </div>
   );
 }
 

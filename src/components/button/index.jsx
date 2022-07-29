@@ -2,11 +2,11 @@ import PropTypes from 'prop-types';
 
 import { Button } from './styles';
 
-export const CustomButton = ({ text, onClick }) => {
-  return <Button onClick={onClick}>{text}</Button>;
+export const CustomButton = ({ children, onClick }) => {
+  return <Button onClick={onClick}>{children}</Button>;
 };
 
 CustomButton.propTypes = {
-  text: PropTypes.string.isRequired,
-  onClick: PropTypes.object,
+  children: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
 };
